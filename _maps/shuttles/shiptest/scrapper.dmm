@@ -383,8 +383,9 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "dN" = (
-/obj/structure/catwalk,
-/turf/template_noop,
+/obj/structure/marker_beacon,
+/obj/structure/catwalk/over,
+/turf/open/floor/plating/airless,
 /area/ship/external)
 "dP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -427,6 +428,7 @@
 	id = "Eject";
 	name = "Door for ejection of Impostors"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/ship/security)
 "eF" = (
@@ -509,10 +511,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/aft)
 "ft" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/siding/red{
 	dir = 9
+	},
+/obj/machinery/vending/security/marine{
+	all_items_free = 1
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
@@ -589,6 +592,7 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 5
 	},
+/obj/item/storage/fancy/donut_box,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "gE" = (
@@ -803,6 +807,7 @@
 /obj/effect/turf_decal/siding/yellow/corner{
 	dir = 8
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "jC" = (
@@ -963,9 +968,6 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 5
 	},
-/obj/machinery/vending/security/marine{
-	pixel_y = 32
-	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
 "lT" = (
@@ -1099,6 +1101,7 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/crew/hydroponics)
 "mN" = (
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "mR" = (
@@ -1249,6 +1252,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "ot" = (
@@ -1393,7 +1397,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/pod/light,
-/area/ship/crew/dorm)
+/area/ship/crew/toilet)
 "qp" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
@@ -2021,7 +2025,7 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/layer4{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech/techmaint,
@@ -2221,12 +2225,16 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "zK" = (
-/obj/machinery/advanced_airlock_controller{
-	pixel_y = -24
+/obj/effect/turf_decal/techfloor,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/tech/techmaint,
-/area/ship/maintenance/starboard)
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/autolathe/hacked,
+/turf/open/floor/pod/light,
+/area/ship/cargo)
 "zU" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Cargo Bay"
@@ -2318,6 +2326,11 @@
 	pixel_x = 28
 	},
 /obj/structure/cable,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/structure/closet/crate/engineering,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "AV" = (
@@ -2369,6 +2382,7 @@
 	id = "EVAEXTERNAL";
 	name = "cargo bay blast door"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/ship/hallway/central)
 "Bj" = (
@@ -2945,6 +2959,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "IC" = (
@@ -2979,6 +2994,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/ship/hallway/aft)
 "IX" = (
@@ -3277,6 +3293,7 @@
 /obj/effect/turf_decal/siding/yellow/corner{
 	dir = 1
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/airless,
 /area/ship/external)
 "Mg" = (
@@ -3538,7 +3555,7 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -4312,6 +4329,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/maintenance/starboard)
 "WW" = (
@@ -4363,6 +4381,11 @@
 	pixel_x = -28
 	},
 /obj/structure/cable,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/storage/toolbox/syndicate,
+/obj/structure/closet/crate/engineering,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Xl" = (
@@ -4861,7 +4884,7 @@ NT
 PP
 UR
 aS
-gJ
+hv
 hv
 hv
 hv
@@ -4935,7 +4958,7 @@ NT
 PZ
 UR
 vQ
-gJ
+hv
 HF
 Ku
 hv
@@ -4972,7 +4995,7 @@ gJ
 gJ
 TV
 vQ
-gJ
+hv
 hv
 hv
 hv
@@ -5225,7 +5248,7 @@ Az
 Mg
 ET
 um
-UL
+zK
 NI
 OP
 RL
@@ -5461,7 +5484,7 @@ ep
 DD
 QS
 yl
-zK
+xV
 xS
 xS
 cR
@@ -5534,7 +5557,7 @@ qU
 qU
 qU
 MX
-dN
+mN
 Pb
 xS
 xS
@@ -5555,9 +5578,9 @@ qU
 qU
 qU
 MX
-dN
-dN
-dN
+mN
+mN
+mN
 MX
 qU
 qU
@@ -5571,7 +5594,7 @@ qU
 qU
 qU
 MX
-dN
+mN
 qU
 qU
 qU
@@ -5592,9 +5615,9 @@ qU
 qU
 qU
 MX
-dN
-dN
-dN
+mN
+mN
+mN
 MX
 qU
 qU
@@ -5608,7 +5631,7 @@ qU
 qU
 qU
 MX
-dN
+mN
 qU
 qU
 qU
@@ -5629,9 +5652,9 @@ qU
 qU
 qU
 MX
-dN
-dN
-dN
+mN
+mN
+mN
 MX
 qU
 qU
@@ -5645,7 +5668,7 @@ qU
 qU
 qU
 MX
-dN
+mN
 qU
 qU
 qU
@@ -5666,9 +5689,9 @@ qU
 qU
 qU
 MX
-dN
-dN
-dN
+mN
+mN
+mN
 MX
 qU
 qU
@@ -5682,7 +5705,7 @@ qU
 qU
 qU
 MX
-dN
+mN
 qU
 qU
 qU
@@ -5695,111 +5718,111 @@ qU
 (29,1,1) = {"
 qU
 qU
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
 qU
 "}
 (30,1,1) = {"
 qU
 qU
-dN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
-mN
 mN
 dN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+dN
+mN
 qU
 "}
 (31,1,1) = {"
 qU
 qU
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
-dN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
+mN
 qU
 "}
