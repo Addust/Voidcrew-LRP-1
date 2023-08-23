@@ -303,7 +303,6 @@ GLOBAL_VAR(restart_counter)
 			features += "AI allowed"
 		hostedby = CONFIG_GET(string/hostedby)
 
-	var/discordurl = CONFIG_GET(string/discordurl)
 	var/githuburl = CONFIG_GET(string/githuburl)
 	s += "<b>[station_name()]</b>";
 	if(discordurl)
