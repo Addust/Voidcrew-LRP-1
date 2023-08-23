@@ -305,12 +305,6 @@ GLOBAL_VAR(restart_counter)
 
 	var/githuburl = CONFIG_GET(string/githuburl)
 	s += "<b>[station_name()]</b>";
-	if(discordurl)
-		s += " ("
-		s += "<a href=\"[discordurl]\">" //Change this to wherever you want the hub to link to.
-		s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
-		s += "</a>"
-		s += ")"
 	if(githuburl)
 		s += " ("
 		s += "<a href=\"[githuburl]\">"
