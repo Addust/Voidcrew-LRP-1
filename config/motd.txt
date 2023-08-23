@@ -1,5 +1,10 @@
-<!-- Most valid html will work in here, excluding images. -->
+<!-- Most valid html will work in here, but you have to use URL links for images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<h1>Welcome to Tony VoidCrew!</h1><br><br>
 
-<i>This server is running a White Sands SS13 Git build.</i>
+<i>We are new server and are currently recruiting for staff positions.</i> <br><br>
+<i>If you have any experience at all with the game or as an admin or moderator please apply and help us grow and build this server!</i><br><br>
+
+<i>If you're interested please contact Tony on the discord.</i><br><br>
+
+<a href="https://discord.gg/h9ARKE37t9">Join our Discord!</a>

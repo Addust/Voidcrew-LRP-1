@@ -126,15 +126,15 @@ window "mapwindow"
 window "infowindow"
 	elem "infowindow"
 		type = MAIN
-		pos = 372,0
+		pos = 281,0
 		size = 640x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		is-pane = true
-		outer-size = 658x549
-		inner-size = 640x502
+		outer-size = 656x538
+		inner-size = 640x499
 	elem "info"
 		type = CHILD
 		pos = 0,30
@@ -148,8 +148,8 @@ window "infowindow"
 		is-vert = false
 	elem "changelog"
 		type = BUTTON
-		pos = 8,5
-		size = 80x20
+		pos = 16,5
+		size = 104x20
 		anchor1 = 3,0
 		anchor2 = 19,0
 		background-color = none
@@ -158,30 +158,18 @@ window "infowindow"
 		command = "changelog"
 	elem "rules"
 		type = BUTTON
-		pos = 96,5
-		size = 56x20
+		pos = 120,5
+		size = 100x20
 		anchor1 = 19,0
 		anchor2 = 34,0
 		background-color = none
 		saved-params = "is-checked"
 		text = "Rules"
 		command = "rules"
-	elem "discord"
-		type = BUTTON
-		pos = 158,5
-		size = 106x20
-		anchor1 = 30,0
-		anchor2 = 44,0
-		font-family = "Verdana"
-		text-color = #ffffff
-		background-color = #40628a
-		saved-params = "is-checked"
-		text = "Join Discord"
-		command = "discord"
 	elem "wiki"
 		type = BUTTON
-		pos = 264,5
-		size = 80x20
+		pos = 220,5
+		size = 100x20
 		anchor1 = 34,0
 		anchor2 = 50,0
 		background-color = none
@@ -190,33 +178,33 @@ window "infowindow"
 		command = "wiki"
 	elem "forum"
 		type = BUTTON
-		pos = 352,5
-		size = 72x20
+		pos = 320,5
+		size = 100x20
 		anchor1 = 50,0
 		anchor2 = 66,0
 		background-color = none
 		saved-params = "is-checked"
-		text = "Forum"
+		text = "Discord"
 		command = "forum"
 	elem "github"
 		type = BUTTON
-		pos = 432,5
-		size = 88x20
+		pos = 420,5
+		size = 100x20
 		anchor1 = 66,0
 		anchor2 = 81,0
 		background-color = none
 		saved-params = "is-checked"
-		text = "Github"
+		text = "Staff Application"
 		command = "github"
 	elem "report-issue"
 		type = BUTTON
-		pos = 528,5
-		size = 96x20
+		pos = 520,5
+		size = 100x20
 		anchor1 = 81,0
 		anchor2 = 97,0
 		background-color = none
 		saved-params = "is-checked"
-		text = "Report Issue"
+		text = "Report Staff"
 		command = "report-issue"
 
 window "outputwindow"
