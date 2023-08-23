@@ -221,19 +221,19 @@
 /datum/config_entry/string/banappeals
 
 /datum/config_entry/string/wikiurl
-	default = "https://shiptest.net/wiki/"
+	config_entry_value = "https://shiptest.net/wiki/"
 
 /datum/config_entry/string/forumurl
-	default = "https://discord.gg/h9ARKE37t9"
+	config_entry_value = "https://discord.gg/h9ARKE37t9"
 
 /datum/config_entry/string/rulesurl
-	default = "https://rules.voidcrew-lrp.com"
+	config_entry_value = "https://rules.voidcrew-lrp.com"
 
 /datum/config_entry/string/githuburl
-	default = "https://forms.gle/NqSGHnfX6ttNiW7Y9"
+	config_entry_value = "https://forms.gle/NqSGHnfX6ttNiW7Y9"
 
 /datum/config_entry/string/reporturl
-	default = "https://forms.gle/tPc4wH9J7SQbzEHk9"
+	config_entry_value = "https://forms.gle/tPc4wH9J7SQbzEHk9"
 
 /datum/config_entry/string/mapviewerurl
 	config_entry_value = "https://shiptest.net/map"
